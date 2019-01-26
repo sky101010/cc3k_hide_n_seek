@@ -1,7 +1,9 @@
 #include "spot.h"
 
 
-spot::spot(int x, int y){
-	this->x = x;
-	this->y = y;
+spot::spot(int xi, int yi){
+	this->x = xi;
+	this->y = yi;
 }
+
+spot::~spot(){}

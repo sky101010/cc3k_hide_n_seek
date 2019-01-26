@@ -7,7 +7,7 @@ protected:
     //occupant o;
     int x,y;
 public:
-	spot(int x ,int y);
+	spot(int xi ,int yi);
     ~spot();
 };
 

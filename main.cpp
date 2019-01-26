@@ -1,16 +1,3 @@
-/*
- CS 349 A1 Skeleton Code - Snake
- 
- - - - - - - - - - - - - - - - - - - - - - -
- 
- Commands to compile and run:
- 
- g++ -o snake snake.cpp -L/usr/X11R6/lib -lX11 -lstdc++
- ./snake
- 
- Note: the -L option and -lstdc++ may not be needed on some machines.
- */
-
 #include <iostream>
 #include <list>
 #include <cstdlib>

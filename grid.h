@@ -3,15 +3,18 @@
 #define __GRID_H__
 
 #include "spot.h"
+#include <vector>
+using namespace std;
+
 
 class grid{
 protected:
-    const static int length = 1000;
-    const static int width = 800;
-    spot g [length][width];
+    int length;
+    int width;
+    vector<spot*> v;
     
 public:
-    grid();
+    grid(int length, int width);
     ~grid();
 };
 
