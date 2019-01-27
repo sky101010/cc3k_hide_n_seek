@@ -16,6 +16,7 @@ protected:
 public:
     grid(int length, int width);
     ~grid();
+    spot * atLocation(int x, int y);
 };
 
 #endif

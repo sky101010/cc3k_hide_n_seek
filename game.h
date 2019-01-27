@@ -3,16 +3,17 @@
 #define __GAME_H__
 
 #include "grid.h"
-#include "player.h"
+#include "humanPlayer.h"
 using namespace std;
 
 
 class game{
 protected:
     grid * gameBoard;
+    humanPlayer * human;
     
 public:
-    game();
+    game(int l, int w);
     ~game();
     bool winning();
 

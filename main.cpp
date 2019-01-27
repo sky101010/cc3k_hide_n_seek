@@ -18,6 +18,7 @@
 
 ////
 #include "grid.h"
+#include "game.h"
 using namespace std;
 
 
@@ -29,8 +30,8 @@ using namespace std;
  *	 Exit forcing window manager to clean up - cheesy, but easy.
  */
 int main ( int argc, char *argv[] ) {
-    grid gameboard ();
-
+    game g(1000,800);
+    
 
 }
 

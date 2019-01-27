@@ -12,7 +12,16 @@ grid::grid(int length, int width){
 	}
 }
 
-grid::~grid(){}
+grid::~grid(){
+	while(v.size() > 0){
+		spot * temp = v.back;
+		delete temp;
+		v.pop_back();
+	}
+}
 
-
+spot * grid::atLocation(int x, int y){
+	int temp = length * (x - 1) + y;
+	return v.at(temp);
+}
 
