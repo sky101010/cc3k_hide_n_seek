@@ -6,14 +6,16 @@
 #include <vector>
 using namespace std;
 
-
+class spot;
 class grid{
 protected:
+    
+    
+    
+public:
     int length;
     int width;
     vector<spot*> v;
-    
-public:
     grid(int length, int width);
     ~grid();
     spot * atLocation(int x, int y);

@@ -8,7 +8,7 @@ using namespace std;
 
 class player{
 public:
-    player(int hp, int x,int y, int attack,grid * gb);
+    player(int hp, int x,int y, int attack);
     ~player();
     void moveUp();
     void moveDown();
@@ -19,7 +19,6 @@ public:
     virtual bool human() = 0;
 
 protected:
-	grid * gameBoard;
     int hp;
     int xlocation,ylocation;
     int attackPerSecond;
