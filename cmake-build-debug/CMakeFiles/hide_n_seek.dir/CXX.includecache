@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yzb4kr/Desktop/hide_n_seek/baseEnemy.h
+player.h
+/home/yzb4kr/Desktop/hide_n_seek/player.h
+
+/home/yzb4kr/Desktop/hide_n_seek/game.cpp
+game.h
+/home/yzb4kr/Desktop/hide_n_seek/game.h
+iostream
+-
+
+/home/yzb4kr/Desktop/hide_n_seek/game.h
+grid.h
+/home/yzb4kr/Desktop/hide_n_seek/grid.h
+humanPlayer.h
+/home/yzb4kr/Desktop/hide_n_seek/humanPlayer.h
+baseEnemy.h
+/home/yzb4kr/Desktop/hide_n_seek/baseEnemy.h
+vector
+-
+
+/home/yzb4kr/Desktop/hide_n_seek/grid.h
+spot.h
+/home/yzb4kr/Desktop/hide_n_seek/spot.h
+vector
+-
+
+/home/yzb4kr/Desktop/hide_n_seek/humanPlayer.h
+player.h
+/home/yzb4kr/Desktop/hide_n_seek/player.h
+
+/home/yzb4kr/Desktop/hide_n_seek/player.h
+grid.h
+/home/yzb4kr/Desktop/hide_n_seek/grid.h
+
+/home/yzb4kr/Desktop/hide_n_seek/spot.h
+

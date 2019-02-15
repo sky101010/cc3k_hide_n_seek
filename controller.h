@@ -5,13 +5,14 @@
 #include "player.h"
 using namespace std;
 
-
+class game;
 class controller{
-	grid * gameboard;
+	game * gameObj;
     player * humanplayer;
 
     public:
-    controller(grid * gb, player * pl);
+	bool isLegal(int newX, int newY);
+    controller(game * g, player * pl);
     void moveUp();
     void moveDown();
     void moveLeft();

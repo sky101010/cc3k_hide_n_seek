@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="hide_n_seek"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hide_n_seek">
+				<Option output="/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug/hide_n_seek" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yzb4kr/Desktop/hide_n_seek/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug/Makefile&quot;  VERBOSE=1 hide_n_seek"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hide_n_seek/fast">
+				<Option output="/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug/hide_n_seek" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yzb4kr/Desktop/hide_n_seek/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug/Makefile&quot;  VERBOSE=1 hide_n_seek/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/yzb4kr/Desktop/hide_n_seek/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/yzb4kr/Desktop/hide_n_seek/baseEnemy.cpp">
+			<Option target="hide_n_seek"/>
+		</Unit>
+		<Unit filename="/home/yzb4kr/Desktop/hide_n_seek/baseEnemy.h">
+			<Option target="hide_n_seek"/>
+		</Unit>
+		<Unit filename="/home/yzb4kr/Desktop/hide_n_seek/baseEnemyDecorator.cpp">
+			<Option target="hide_n_seek"/>
+		</Unit>
+		<Unit filename="/home/yzb4kr/Desktop/hide_n_seek/baseEnemyDecorator.h">
+			<Option target="hide_n_seek"/>
+		</Unit>
+		<Unit filename="/home/yzb4kr/Desktop/hide_n_seek/controller.cpp">
+			<Option target="hide_n_seek"/>
+		</Unit>
+		<Unit filename="/home/yzb4kr/Desktop/hide_n_seek/controller.h">
+			<Option target="hide_n_seek"/>
+		</Unit>
+		<Unit filename="/home/yzb4kr/Desktop/hide_n_seek/game.cpp">
+			<Option target="hide_n_seek"/>
+		</Unit>
+		<Unit filename="/home/yzb4kr/Desktop/hide_n_seek/game.h">
+			<Option target="hide_n_seek"/>
+		</Unit>
+		<Unit filename="/home/yzb4kr/Desktop/hide_n_seek/grid.cpp">
+			<Option target="hide_n_seek"/>
+		</Unit>
+		<Unit filename="/home/yzb4kr/Desktop/hide_n_seek/grid.h">
+			<Option target="hide_n_seek"/>
+		</Unit>
+		<Unit filename="/home/yzb4kr/Desktop/hide_n_seek/humanPlayer.cpp">
+			<Option target="hide_n_seek"/>
+		</Unit>
+		<Unit filename="/home/yzb4kr/Desktop/hide_n_seek/humanPlayer.h">
+			<Option target="hide_n_seek"/>
+		</Unit>
+		<Unit filename="/home/yzb4kr/Desktop/hide_n_seek/item.cpp">
+			<Option target="hide_n_seek"/>
+		</Unit>
+		<Unit filename="/home/yzb4kr/Desktop/hide_n_seek/item.h">
+			<Option target="hide_n_seek"/>
+		</Unit>
+		<Unit filename="/home/yzb4kr/Desktop/hide_n_seek/main.cpp">
+			<Option target="hide_n_seek"/>
+		</Unit>
+		<Unit filename="/home/yzb4kr/Desktop/hide_n_seek/player.cpp">
+			<Option target="hide_n_seek"/>
+		</Unit>
+		<Unit filename="/home/yzb4kr/Desktop/hide_n_seek/player.h">
+			<Option target="hide_n_seek"/>
+		</Unit>
+		<Unit filename="/home/yzb4kr/Desktop/hide_n_seek/spot.cpp">
+			<Option target="hide_n_seek"/>
+		</Unit>
+		<Unit filename="/home/yzb4kr/Desktop/hide_n_seek/spot.h">
+			<Option target="hide_n_seek"/>
+		</Unit>
+		<Unit filename="/home/yzb4kr/Desktop/hide_n_seek/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

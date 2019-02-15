@@ -11,13 +11,13 @@ using namespace std;
 
 class game{
 protected:
-    grid * gameBoard;
     humanPlayer * human;
     vector<baseEnemy *> enemyList;
 
 public:
+    grid * gameBoard;
     game(int l, int w);
-    void addPlayer(player* human);
+    void addPlayer(humanPlayer* human);
     void addEnemy(player* enemy);
     ~game();
     bool winning();

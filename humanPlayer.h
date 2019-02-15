@@ -7,8 +7,9 @@
 using namespace std;
 
 
-class humanPlayer : player{
-    
+class humanPlayer : public player{
+public:
+    humanPlayer(int hp, int x,int y, int attack);
     bool human();
 };
 

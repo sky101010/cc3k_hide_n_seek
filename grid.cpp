@@ -1,5 +1,6 @@
 #include "grid.h"
 #include "spot.h"
+#include <iostream>
 
 grid::grid(int length, int width){
 	this->length = length;
@@ -14,7 +15,7 @@ grid::grid(int length, int width){
 
 grid::~grid(){
 	while(v.size() > 0){
-		spot * temp = v.back;
+		spot * temp = v.back();
 		delete temp;
 		v.pop_back();
 	}
